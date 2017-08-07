@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-md-12">
+    <h1>data binding</h1>
+    <hr>
+  </div>
+</div>
+<div class="row">
+<div class="col-md-12">
+  String interpolation - my name is {{nm}}
+</div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    Expression {{10*10}}
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    function call {{ mkupr() }}
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+   <h1>Two way binding</h1>
+    <hr>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+  <input type="text" [(ngModel)]="nm">{{nm}}
+  </div>
+</div>
+<app-awesome></app-awesome>
+<app-event-binding></app-event-binding>
+<app-property-binding></app-property-binding>
