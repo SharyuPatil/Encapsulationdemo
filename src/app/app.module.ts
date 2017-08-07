@@ -8,6 +8,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AwesomeComponent } from './awesome/awesome.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
+import { InComComponent } from './in-com.component';
+import { OutComComponent } from './out-com.component';
+import { InterCompComComponent } from './inter-comp-com/inter-comp-com.component';
+import { PanelComponent } from './panel.component';
+import { ContentComponent } from './content.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
     DatabindingComponent,
     AwesomeComponent,
     EventBindingComponent,
-    PropertyBindingComponent
+    PropertyBindingComponent,
+    InComComponent,
+    OutComComponent,
+    InterCompComComponent,
+    PanelComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
